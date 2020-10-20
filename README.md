@@ -8,4 +8,4 @@ Here is the syntax for QuoteBot:
 The bot is not case sensitive, so inputting a lowercase or uppercase phrase will return the full message that contains the phrase no matter what.
 
 For example:
-![img]https://i.imgur.com/JEsoCHe.png[/img]
+![img]https://i.imgur.com/JEsoCHe.png
