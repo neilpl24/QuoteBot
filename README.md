@@ -5,6 +5,7 @@ QuoteBot is a discord bot developed using JavaScript and the Discord.js library.
 ## Syntax
 Here is the syntax for QuoteBot:
 !quote @username "input(no quotes)"
+
 The bot is not case sensitive, so inputting a lowercase or uppercase phrase will return the full message that contains the phrase no matter what.
 
 For example:
