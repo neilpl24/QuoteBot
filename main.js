@@ -33,8 +33,8 @@ client.on('message', message => {
             !quote, @username, phrase.`);
         }
                          channelMessages = message.channel.messages.fetch({ limit: 100 }).then(messages => {
-                            var messagesSent = [];
-                            var userName = args[0];
+                            let messagesSent = [];
+                            let userName = args[0];
                             USER_ID = userName;
                             const user = message.member.user;
                             if (user !== null) {
@@ -52,12 +52,12 @@ client.on('message', message => {
                         } else {
                             return message.channel.send(`There is no user with that name!`);
                         }
-                            var str = args[1];
-                            var g = 0;
-                            var found = false;
+                            let str = args[1];
+                            let g = 0;
+                            let found = false;
                                     for(g=0; g<messagesSent.length; g++) {
                                         if((messagesSent[g].toLowerCase().includes(str) || messagesSent[g].toUpperCase().includes(str)) && !messagesSent[g].includes("!quote")) {
-                                            var userMessage = messagesSent[g];
+                                            let userMessage = messagesSent[g];
                                             return message.channel.send(args[0] + ` said "` +  userMessage + `" ` + (g+2) + ` messages ago!`);
                                         }
                                     }
